@@ -5,7 +5,7 @@ This project combines machine learning and mathematical optimization to address 
 
 The project leverages real-world discharge data and applies both predictive modeling and optimization techniques to balance accuracy with computational efficiency.
 
-📌 Project Overview
+# 📌 Project Overview
 
 Objective:
 To predict the Length of Stay (LOS) of patients using machine learning models and then apply these predictions to optimize hospital bed allocation using mathematical programming and heuristics.
