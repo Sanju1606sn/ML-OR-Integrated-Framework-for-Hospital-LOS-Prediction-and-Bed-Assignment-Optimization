@@ -21,8 +21,8 @@ Optimization: PuLP (Mixed-Integer Linear Programming), custom greedy heuristic
 
 Data Handling & Visualization: Python (pandas, numpy), seaborn, matplotlib
 
-#⚙️ Workflow
-#1. Exploratory Data Analysis (EDA) & Cleaning
+#  Workflow
+# 1. Exploratory Data Analysis (EDA) & Cleaning
 
 File: 01_EDA_and_Cleaning.ipynb
 
@@ -30,7 +30,7 @@ Performed data cleaning, removal of missing values, and feature engineering.
 
 Encoded categorical variables and standardized numerical ones for modeling readiness.
 
-#2. LOS Prediction Modeling
+# 2. LOS Prediction Modeling
 
 File: 02_Modeling_LOS_Prediction.ipynb
 
@@ -40,7 +40,7 @@ Best Model: XGBoost, after applying one-hot encoding and scaling.
 
 Provided the most balanced performance in terms of error and generalization.
 
-#3. Bed Assignment Optimization (MILP)
+# 3. Bed Assignment Optimization (MILP)
 
 File: 03_Optimization_Bed_Management.ipynb
 
@@ -50,7 +50,7 @@ Objective: minimize idle time and overlap in bed assignments while ensuring all 
 
 Provides optimal allocation, but can become computationally heavy for large datasets.
 
-#4. Heuristic Bed Assignment
+# 4. Heuristic Bed Assignment
 
 File: 04_Heuristic_Bed_Assignment.ipynb
 
