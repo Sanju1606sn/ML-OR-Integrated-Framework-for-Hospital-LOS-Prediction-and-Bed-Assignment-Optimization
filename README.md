@@ -5,7 +5,7 @@ This project combines machine learning and mathematical optimization to address 
 
 The project leverages real-world discharge data and applies both predictive modeling and optimization techniques to balance accuracy with computational efficiency.
 
-# 📌 Project Overview
+#  Project Overview
 
 Objective:
 To predict the Length of Stay (LOS) of patients using machine learning models and then apply these predictions to optimize hospital bed allocation using mathematical programming and heuristics.
@@ -21,7 +21,7 @@ Optimization: PuLP (Mixed-Integer Linear Programming), custom greedy heuristic
 
 Data Handling & Visualization: Python (pandas, numpy), seaborn, matplotlib
 
-⚙️ Workflow
+#⚙️ Workflow
 1. Exploratory Data Analysis (EDA) & Cleaning
 
 File: 01_EDA_and_Cleaning.ipynb
@@ -60,7 +60,7 @@ Sacrifices some optimality for speed and scalability.
 
 Benchmarked performance against MILP across different patient sizes.
 
-✅ Results
+# Results
 🔹 LOS Prediction
 
 Final Model: XGBoost
@@ -75,7 +75,7 @@ R² ≈ 0.3710
 
 These results provide a baseline for LOS prediction. While not perfect, they establish a strong foundation. Incorporating richer feature sets (e.g., medical history, hospital-specific factors) or advanced deep learning models could further improve accuracy.
 
-🔹 Optimization & Heuristic Benchmark
+# Optimization & Heuristic Benchmark
 Patients	Beds Used	Idle Time (%)	Runtime (s)
 200	30	~34.8%	< 0.1 s
 500	63	~26.1%	< 0.1 s
@@ -84,6 +84,6 @@ MILP (Optimal): Guarantees the best possible allocation but requires more comput
 
 Greedy Heuristic (Approximate): Produces near-optimal solutions in fraction of a second, making it suitable for real-time or large hospital operations.
 
-➡️ Together, the two approaches provide both theoretical optimality and practical scalability, depending on the operational need.
+➡ Together, the two approaches provide both theoretical optimality and practical scalability, depending on the operational need.
 
 Would you like me to also add a “Key Insights & Impact” section here (something like an executive summary highlighting what these results mean for real hospital operations)? That could make the README more persuasive for non-technical readers.
