@@ -22,7 +22,7 @@ Optimization: PuLP (Mixed-Integer Linear Programming), custom greedy heuristic
 Data Handling & Visualization: Python (pandas, numpy), seaborn, matplotlib
 
 #⚙️ Workflow
-1. Exploratory Data Analysis (EDA) & Cleaning
+#1. Exploratory Data Analysis (EDA) & Cleaning
 
 File: 01_EDA_and_Cleaning.ipynb
 
@@ -30,7 +30,7 @@ Performed data cleaning, removal of missing values, and feature engineering.
 
 Encoded categorical variables and standardized numerical ones for modeling readiness.
 
-2. LOS Prediction Modeling
+#2. LOS Prediction Modeling
 
 File: 02_Modeling_LOS_Prediction.ipynb
 
@@ -40,7 +40,7 @@ Best Model: XGBoost, after applying one-hot encoding and scaling.
 
 Provided the most balanced performance in terms of error and generalization.
 
-3. Bed Assignment Optimization (MILP)
+#3. Bed Assignment Optimization (MILP)
 
 File: 03_Optimization_Bed_Management.ipynb
 
@@ -50,7 +50,7 @@ Objective: minimize idle time and overlap in bed assignments while ensuring all 
 
 Provides optimal allocation, but can become computationally heavy for large datasets.
 
-4. Heuristic Bed Assignment
+#4. Heuristic Bed Assignment
 
 File: 04_Heuristic_Bed_Assignment.ipynb
 
@@ -84,6 +84,6 @@ MILP (Optimal): Guarantees the best possible allocation but requires more comput
 
 Greedy Heuristic (Approximate): Produces near-optimal solutions in fraction of a second, making it suitable for real-time or large hospital operations.
 
-➡ Together, the two approaches provide both theoretical optimality and practical scalability, depending on the operational need.
+ Together, the two approaches provide both theoretical optimality and practical scalability, depending on the operational need.
 
 Would you like me to also add a “Key Insights & Impact” section here (something like an executive summary highlighting what these results mean for real hospital operations)? That could make the README more persuasive for non-technical readers.
